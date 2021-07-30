@@ -1,0 +1,60 @@
+body {
+  font-family: "Inter", sans-serif;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-size: 65.2%;
+}
+
+main {
+  margin: 10px auto;
+  width: 70%;
+}
+/* logo styles */
+.navba-logo1 {
+  height: 40vh;
+  background-color: rgb(233, 233, 233);
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin-top: 45px;
+  text-decoration: none;
+  font-weight: 500;
+  text-decoration: none !important;
+}
+.navba-logo1 > img {
+  width: 4rem;
+}
+.navba-logo1 > p {
+  color: #0768f6;
+  margin-top: 2.9rem;
+  margin-left: 0.4rem;
+  font-weight: bold;
+  font-size: 3.3rem;
+}
+
+/* body
+ */
+
+ .mail-body{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+ }
+.mail-body > p {
+  color: #313131;
+  font-size: 1.3rem;
+}
+
+.mail-body > .template-btn {
+  background-color: #0768f6;
+  border: none;
+  padding: 0.5rem 1.5rem;
+  color: aliceblue;
+  width: 150px;
+  height: 46px;
+  font-size: 0.8rem;
+  cursor: pointer;
